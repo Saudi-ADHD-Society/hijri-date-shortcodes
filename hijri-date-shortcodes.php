@@ -3,7 +3,7 @@
 Plugin Name: Hijri Date Shortcodes
 Plugin URI: https://github.com/jvarn/hijri-date-shortcodes
 Description: Adds shortcodes for converting between Gregorian and Hijri dates
-Version: 0.1.1
+Version: 0.1.2
 Author: Jeremy Varnham
 Author URI: https://abuyasmeen.com/
 */
@@ -20,7 +20,7 @@ if ( ! class_exists( 'Converter' ) ) {
 function jlv_hijri_date_shortcode( $atts, $content="" ) {
 	extract( shortcode_atts( 
 		array( 
-			'static' => 'now', // now, today, tomorrow, yesterday
+			'rel' => 'now', // now, today, tomorrow, yesterday
 			'gdate' => null, // 2022-01-01
 			'hdate' => null, // 1438-01-01
 			), $atts ) );
@@ -31,7 +31,7 @@ function jlv_hijri_date_shortcode( $atts, $content="" ) {
 		$hstring = explode( '-', $hdate );
 		return \GeniusTS\HijriDate\Hijri::convertToGregorian($hstring[2], $hstring[1], $hstring[0]);
 	} else {
-		switch ( $static ) {
+		switch ( $rel ) {
 		    case 'now':
 		        return \GeniusTS\HijriDate\Date::now();
 		        break;
