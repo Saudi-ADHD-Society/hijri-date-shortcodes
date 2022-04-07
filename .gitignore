@@ -1,0 +1,2 @@
+# exclude everything in directory includes
+/includes/*
