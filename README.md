@@ -2,6 +2,8 @@
 Wordpress shortcodes to convert between Gregorian and Hijri dates
 
 ## Requires external library
+To fetch dependencies:
 ```
-composer require geniusts/hijri-dates
+$ cd hijri-date-shortcodes
+$ composer update
 ```
