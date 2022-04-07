@@ -26,4 +26,4 @@ Prints the relative Hijri date\
 From Gregorian to Hijri:\
 `[hijri_date gdate="2022-12-31"]` (yyyy-MM-dd)\
 From Hijri to Gregorian:\
-`[hijri_date gdate="1443-12-30"]` (yyyy-MM-dd)
+`[hijri_date hdate="1443-12-30"]` (yyyy-MM-dd)
