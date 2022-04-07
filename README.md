@@ -18,7 +18,7 @@ Prints the current Hijri date and time\
 `[hijri_date]` (default)\
 `[hijri_date rel="Now"]`
 2. Relative
-Prints the relative Hijri date
+Prints the relative Hijri date\
 `[hijri_date rel="Yesterday"]`\
 `[hijri_date rel="Today"]`\
 `[hijri_date rel="Tomrrow"]`
