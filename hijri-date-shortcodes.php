@@ -14,7 +14,7 @@ Author URI: https://abuyasmeen.com/
  *	@since 0.1.0
  */
 if ( ! class_exists( 'Converter' ) ) {
-	require_once( plugin_dir_path( __FILE__ ) . 'includes/hijri-2/vendor/autoload.php');
+	require_once( plugin_dir_path( __FILE__ ) . 'vendor/autoload.php');
 }
 
 function jlv_hijri_date_shortcode( $atts, $content="" ) {
