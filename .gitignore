@@ -1,2 +1,2 @@
 # exclude everything in directory includes
-/includes/*
+/vendor

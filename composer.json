@@ -1,0 +1,15 @@
+{
+    "name": "jvarn/hijri-dates-shortcodes",
+    "description": "Hijri Dates Shortcodes for Wordpress",
+    "license": "GPL3.0",
+    "authors": [
+        {
+            "name": "Jeremy Varnham",
+            "email": "jeremy.varnham@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "geniusts/hijri-dates":"dev-master"
+    }
+}
