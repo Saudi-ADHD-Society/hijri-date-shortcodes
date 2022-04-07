@@ -14,16 +14,16 @@ $ composer update
 
 ## Usage
 1. Now
-Prints the current Hijri date and time
-`[hijri_date]` (default)
+Prints the current Hijri date and time\
+`[hijri_date]` (default)\
 `[hijri_date rel="Now"]`
 2. Relative
 Prints the relative Hijri date
-`[hijri_date rel="Yesterday"]`
-`[hijri_date rel="Today"]`
+`[hijri_date rel="Yesterday"]`\
+`[hijri_date rel="Today"]`\
 `[hijri_date rel="Tomrrow"]`
 3. Conversion
-From Gregorian to Hijri:
-`[hijri_date gdate="2022-12-31"]` (yyyy-MM-dd)
-From Hijri to Gregorian:
+From Gregorian to Hijri:\
+`[hijri_date gdate="2022-12-31"]` (yyyy-MM-dd)\
+From Hijri to Gregorian:\
 `[hijri_date gdate="1443-12-30"]` (yyyy-MM-dd)
