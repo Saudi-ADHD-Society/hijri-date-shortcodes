@@ -13,9 +13,10 @@ Hijri date shortcodes
 
 == Installation ==
 
-1. Upload plugin files to the `/wp-content/plugins/` directory
-2. Activate the plugin through the 'Plugins' menu in WordPress
-
+1. Clone or download the repository to your computer.
+2. Fetch the dependencies using composer.
+3. Upload plugin files to the `/wp-content/plugins/` directory
+4. Activate the plugin through the 'Plugins' menu in WordPress
 
 == Frequently Asked Questions ==
 None
