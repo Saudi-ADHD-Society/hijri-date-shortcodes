@@ -3,7 +3,7 @@
     "type": "wordpress-plugin",
     "description": "Hijri Dates Shortcodes for Wordpress",
     "keywords": ["wordpress","plugin","hijri","date"],
-    "license": "GPL3.0",
+    "license": "GPL-3.0-or-later",
     "homepage": "https://github.com/jvarn/hijri-dates-shortcode",
     "authors": [
         {
