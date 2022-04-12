@@ -36,7 +36,7 @@ class Shortcodes {
 	}
 
 	public function jlv_hijri_date_shortcode( $atts, $content="" ) {
-		extract( shortcode_atts( 
+		extract( \shortcode_atts( 
 			array( 
 				'rel' => 'now', // now, today, tomorrow, yesterday
 				'gdate' => null, // 2022-01-01
