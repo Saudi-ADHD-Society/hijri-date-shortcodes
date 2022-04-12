@@ -4,11 +4,11 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9fc25672035a979f594b3fcda6c3719b",
+    "content-hash": "a53fa9397376f186b8b0564a5a19ccbd",
     "packages": [
         {
             "name": "geniusts/hijri-dates",
-            "version": "dev-master",
+            "version": "1.1.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/GeniusTS/hijri-dates.git",
@@ -24,7 +24,6 @@
                 "nesbot/carbon": "^2.16|^1.22",
                 "php": ">=7"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -490,9 +489,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "geniusts/hijri-dates": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
