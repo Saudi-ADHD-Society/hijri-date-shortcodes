@@ -27,3 +27,9 @@ From Gregorian to Hijri:\
 `[hijri_date gdate="2022-12-31"]` (yyyy-MM-dd)\
 From Hijri to Gregorian:\
 `[hijri_date hdate="1443-12-30"]` (yyyy-MM-dd)
+
+## Package
+You can also add this to your own plugin using composer:
+```
+composer require jvarn/hijri-dates-shortcodes
+```
