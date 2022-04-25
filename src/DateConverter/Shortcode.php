@@ -11,6 +11,13 @@ namespace Jvarn\DateConverter;
 //use \GeniusTS\HijriDate\Date as Relative;
 
 /**
+ * No direct access
+ */
+if ( ! defined( 'ABSPATH' ) ) {
+	wp_die();
+}
+
+/**
  * Shortcode class.
  */
 class Shortcode {
