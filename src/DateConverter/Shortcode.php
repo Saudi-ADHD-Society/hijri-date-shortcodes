@@ -13,7 +13,7 @@ namespace Jvarn\DateConverter;
 /**
  * Shortcode class.
  */
-class Shortcodes {
+class Shortcode {
 
 	/**
 	 * Construct.
