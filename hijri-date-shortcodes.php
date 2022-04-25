@@ -3,7 +3,7 @@
  * Plugin Name: Hijri Date Shortcodes
  * Plugin URI: https://github.com/jvarn/hijri-date-shortcodes
  * Description: Adds shortcodes for converting between Gregorian and Hijri dates
- * Version: 0.2.2
+ * Version: 0.2.3
  * Author: Jeremy Varnham
  * Author URI: https://abuyasmeen.com/
  *
@@ -22,6 +22,6 @@ if ( ! defined( 'ABSPATH' ) ) {
  *
  * @since 0.1.0
  */
-if ( ! class_exists( 'Converter' ) ) {
-	require_once plugin_dir_path( __FILE__ ) . 'vendor/autoload.php';
-}
+
+require_once plugin_dir_path( __FILE__ ) . 'vendor/autoload.php';
+
