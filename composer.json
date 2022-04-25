@@ -1,10 +1,10 @@
 {
-    "name": "jvarn/hijri-dates-shortcodes",
+    "name": "jvarn/hijri-date-shortcodes",
     "type": "wordpress-plugin",
-    "description": "Hijri Dates Shortcodes for Wordpress",
+    "description": "Hijri Date Shortcodes for Wordpress",
     "keywords": ["wordpress","plugin","hijri","date"],
     "license": "GPL-3.0-or-later",
-    "homepage": "https://github.com/saudi-adhd-society/hijri-dates-shortcode",
+    "homepage": "https://github.com/saudi-adhd-society/hijri-date-shortcodes",
     "authors": [
         {
             "name": "Jeremy Varnham",
@@ -21,9 +21,9 @@
     "require": {
         "geniusts/hijri-dates":"1.1.9"
     },
-    "autoload": {
-       "psr-4": {
-	       "Jvarn\\": "src/"
-	    }
-	}
+    "autoload"    : {
+        "psr-4" : {
+            "Jvarn\\" : "src/"
+        }
+    }
 }
