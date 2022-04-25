@@ -7,8 +7,8 @@
 
 namespace Jvarn\DateConverter;
 
-use \GeniusTS\HijriDate\Hijri as Convert;
-use \GeniusTS\HijriDate\Date as Relative;
+//use \GeniusTS\HijriDate\Hijri as Convert;
+//use \GeniusTS\HijriDate\Date as Relative;
 
 /**
  * Shortcode class.
@@ -19,7 +19,7 @@ class Shortcodes {
 	 * Construct.
 	 */
 	public function __construct() {
-		add_shortcode( 'hijri_date', array( $this, 'jlv_hijri_date_shortcode' ) );
+		add_shortcode( 'hijri_date', array( $this, 'make_shortcode' ) );
 	}
 
 	/**
@@ -38,7 +38,7 @@ class Shortcodes {
 	 * }
 	 * @param string $content WP shortcode html contents. Default null.
 	 */
-	public function jlv_hijri_date_shortcode( $atts, $content = '' ) {
+	public function make_shortcode( $atts, $content = '' ) {
 		$defaults = array(
 			'rel'   => 'now',
 			'gdate' => null,
@@ -47,7 +47,8 @@ class Shortcodes {
 
 		$atts = \shortcode_atts(
 			$defaults,
-			$atts
+			$atts,
+			'hijri-date-input'
 		);
 
 		if ( isset( $atts['gdate'] ) ) {
