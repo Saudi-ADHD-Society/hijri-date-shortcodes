@@ -5,7 +5,7 @@
  * @package jvarn\hijri-date-shortcodes
  */
 
-namespace Jvarn\hijridate;
+namespace Jvarn\DateConverter;
 
 use \GeniusTS\HijriDate\Hijri as Convert;
 use \GeniusTS\HijriDate\Date as Relative;
@@ -70,3 +70,4 @@ class Shortcodes {
 	}
 }
 $hijri_date_shortcode = new Shortcodes();
+
