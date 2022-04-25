@@ -53,12 +53,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "0c20b8052c2201d6d3337b2a93e4884648ce6287"
+                "reference": "cd60719e6217fad102a0b97286981c78212c4eb8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/0c20b8052c2201d6d3337b2a93e4884648ce6287",
-                "reference": "0c20b8052c2201d6d3337b2a93e4884648ce6287",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/cd60719e6217fad102a0b97286981c78212c4eb8",
+                "reference": "cd60719e6217fad102a0b97286981c78212c4eb8",
                 "shasum": ""
             },
             "require": {
@@ -143,7 +143,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-03-12T18:16:40+00:00"
+            "time": "2022-04-16T21:29:32+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
@@ -384,12 +384,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/translation.git",
-                "reference": "76dbc7a6facd677ecfb7ab97507e8633949c3900"
+                "reference": "f5c0f6d1f20993b2606f3a5f36b1dc8c1899170b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/translation/zipball/76dbc7a6facd677ecfb7ab97507e8633949c3900",
-                "reference": "76dbc7a6facd677ecfb7ab97507e8633949c3900",
+                "url": "https://api.github.com/repos/symfony/translation/zipball/f5c0f6d1f20993b2606f3a5f36b1dc8c1899170b",
+                "reference": "f5c0f6d1f20993b2606f3a5f36b1dc8c1899170b",
                 "shasum": ""
             },
             "require": {
@@ -474,7 +474,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-04-07T09:39:59+00:00"
+            "time": "2022-04-22T08:14:12+00:00"
         },
         {
             "name": "symfony/translation-contracts",

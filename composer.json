@@ -4,7 +4,7 @@
     "description": "Hijri Dates Shortcodes for Wordpress",
     "keywords": ["wordpress","plugin","hijri","date"],
     "license": "GPL-3.0-or-later",
-    "homepage": "https://github.com/jvarn/hijri-dates-shortcode",
+    "homepage": "https://github.com/saudi-adhd-society/hijri-dates-shortcode",
     "authors": [
         {
             "name": "Jeremy Varnham",
@@ -23,7 +23,7 @@
     },
     "autoload": {
        "psr-4": {
-	       "jvarn\\HijriDateShortcodes\\": "src/"
+	       "Jvarn\\": "src/"
 	    }
 	}
 }
